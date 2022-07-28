@@ -11,4 +11,4 @@ docker image ls
 
 # Step 3: 
 # Run flask app
-docker run -p 8000:80 udacity_project4
+docker run --name alx-project4 -p 8000:80 udacity_project4
