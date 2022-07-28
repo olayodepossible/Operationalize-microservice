@@ -1,1 +1,17 @@
 <paste log output from Kubernetes-mediated prediction, here>
+
+NAME                               READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/udacity-project4   1/1     1            1           46m
+
+NAME                                          DESIRED   CURRENT   READY   AGE
+replicaset.apps/udacity-project4-57445dbff5   1         1         1       46m
+
+NAME                 TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
+service/kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   58m
+
+NAME                                    READY   STATUS    RESTARTS   AGE
+pod/udacity-project4-57445dbff5-r5xtv   1/1     Running   0          46m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
