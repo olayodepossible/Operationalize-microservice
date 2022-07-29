@@ -1,7 +1,7 @@
 version: 2.1
 
 jobs:
-  build-project:
+  build:
     docker:
       # Use the same Docker base as the project
       - image: python:3.7.3-stretch
@@ -36,7 +36,3 @@ jobs:
           command: |
             . venv/bin/activate
             make lint
-
-workflows:
-  jobs:
-    - build-project
