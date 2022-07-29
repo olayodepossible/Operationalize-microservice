@@ -6,10 +6,11 @@ jobs:
       # Use the same Docker base as the project
       - image: python:3.7.3-stretch
 
-    working_directory: ~/repo/project-ml-microservice-kubernetes
+    # working_directory: ~/repo
 
     steps:
       - checkout
+        path: ~/project-ml-microservice-kubernetes
       - run:
           name: List direcotry
           command: ls
