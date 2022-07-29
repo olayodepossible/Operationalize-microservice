@@ -26,3 +26,5 @@ The files in this repository consist of:
 1. project main folder - where one need to run all the above commands
 2. circleci - for automated build, testing and, deployemnt
 3. README.md
+
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/olayodepossible/Operationalize-microservice/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/olayodepossible/Operationalize-microservice/tree/main)
