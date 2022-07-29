@@ -6,13 +6,13 @@ jobs:
       # Use the same Docker base as the project
       - image: python:3.7.3-stretch
 
-    working_directory: ~/repo
+    working_directory: ~/Operationalize-microservice
 
     steps:
       - checkout
       - run:
           name: List direcotry
-          command: pwd
+          command: pwd && ls
 
       # Download and cache dependencies
       - restore_cache:
